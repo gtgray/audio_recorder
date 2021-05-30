@@ -1,0 +1,3 @@
+C:/android/android_studio_projects/audiorecorder/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/audioRecorder.dir
+C:/android/android_studio_projects/audiorecorder/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/android/android_studio_projects/audiorecorder/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

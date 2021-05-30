@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:maxLines="2"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnPlay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@tools:sample/date/mmddyy" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnPlay"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginVertical="16dp"
+        android:layout_marginEnd="16dp"
+        android:paddingHorizontal="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:text="@string/base_start_record"
+        android:tint="@android:color/holo_green_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnForward"
+        app:srcCompat="@drawable/svg_play" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnForward"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginVertical="16dp"
+        android:layout_marginEnd="16dp"
+        android:paddingHorizontal="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:text="@string/base_start_record"
+        android:tint="@android:color/holo_blue_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/svg_forward" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

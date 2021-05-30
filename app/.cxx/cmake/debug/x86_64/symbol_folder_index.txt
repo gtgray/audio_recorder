@@ -1,0 +1,1 @@
+C:\android\android_studio_projects\audiorecorder\app\build\intermediates\cmake\debug\obj\x86_64

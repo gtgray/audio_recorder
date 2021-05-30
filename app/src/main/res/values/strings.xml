@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">audioRecorder</string>
+    <string name="base_main_title">Audio Recorder</string>
+    <string name="base_disabled_record">"Can't record"</string>
+    <string name="base_record_permissions_needed">"Can't record without granted permissions"</string>
+    <string name="base_request">Request</string>
+    <string name="base_settings">Settings</string>
+    <string name="base_start_record">Start record</string>
+    <string name="base_stop_record">Stop record</string>
+    <string name="base_play">Play</string>
+</resources>

@@ -1,0 +1,13 @@
+[
+{
+  "directory": "C:/android/android_studio_projects/audiorecorder/app/.cxx/cmake/debug/x86",
+  "command": "C:\\android\\android_sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android24 --gcc-toolchain=C:/android/android_sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/android/android_sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DaudioRecorder_EXPORTS -isystem C:/Users/Aleksey/.gradle/caches/transforms-2/files-2.1/1df9bd5c1dbd535ecc4126d71ecfb741/oboe-1.6.0/prefab/modules/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\audioRecorder.dir\\AudioRecorder.cpp.o -c C:\\android\\android_studio_projects\\audiorecorder\\app\\src\\main\\cpp\\AudioRecorder.cpp",
+  "file": "C:\\android\\android_studio_projects\\audiorecorder\\app\\src\\main\\cpp\\AudioRecorder.cpp"
+},
+
+{
+  "directory": "C:/android/android_studio_projects/audiorecorder/app/.cxx/cmake/debug/x86",
+  "command": "C:\\android\\android_sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android24 --gcc-toolchain=C:/android/android_sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/android/android_sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DaudioRecorder_EXPORTS -isystem C:/Users/Aleksey/.gradle/caches/transforms-2/files-2.1/1df9bd5c1dbd535ecc4126d71ecfb741/oboe-1.6.0/prefab/modules/oboe/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\audioRecorder.dir\\jni_bridge.cpp.o -c C:\\android\\android_studio_projects\\audiorecorder\\app\\src\\main\\cpp\\jni_bridge.cpp",
+  "file": "C:\\android\\android_studio_projects\\audiorecorder\\app\\src\\main\\cpp\\jni_bridge.cpp"
+}
+]

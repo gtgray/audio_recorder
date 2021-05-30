@@ -1,0 +1,42 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "C:\\android\\android_studio_projects\\audiorecorder\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\android\\android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "C:\\android\\android_studio_projects\\audiorecorder\\app\\.cxx\\cmake\\debug\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\android\\android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "C:\\android\\android_studio_projects\\audiorecorder\\app\\.cxx\\cmake\\debug\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "audioRecorder-Debug-x86": {
+      "buildCommandComponents": [
+        "C:\\android\\android_sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "C:\\android\\android_studio_projects\\audiorecorder\\app\\.cxx\\cmake\\debug\\x86",
+        "audioRecorder"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "audioRecorder",
+      "output": "C:\\android\\android_studio_projects\\audiorecorder\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libaudioRecorder.so",
+      "runtimeFiles": [
+        "C:\\Users\\Aleksey\\.gradle\\caches\\transforms-2\\files-2.1\\1df9bd5c1dbd535ecc4126d71ecfb741\\oboe-1.6.0\\prefab\\modules\\oboe\\libs\\android.x86\\liboboe.so"
+      ]
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
